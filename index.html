@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <base href="https://bcores.github.io/Tarea2/" />
+    <title>Tarea #2 de Diseño de Aplicaciones Web</title>
+    <meta
+      name="description"
+      content="Esta es una tarea hecha por Brandon Corella Ulate"
+    />
+    <link rel="stylesheet" href="CSS/Estilo.css" />
+  </head>
+
+  <body>
+    <div id="Cuerpo">
+      <header>
+        <div id="Logo">
+          <img src="Imagenes/Pokeball.png" alt="Imagen no encontrada" />
+          <h1>Tarea #2 de Diseño Web</h1>
+        </div>
+        <img src="Imagenes/Banner.jpg" alt="Imagen no encontrada" />
+      </header>
+
+      <nav id="menu">
+        <div id="contenedor">
+          <a class="principal" href="index.html">Menú</a>
+          <a class="principal" href="#">Información adicional</a>
+          <a class="principal" href="#">Composición de equipos</a>
+          <a class="principal" href="#">Tabla de eficacia</a>
+          <a class="principal" href="#">Crianza</a>
+          <a class="principal last" href="#">Contacto</a>
+        </div>
+      </nav>
+
+      <main id="contenidoprincipal">
+        <div class="contenidoprincipal">
+          <article class="contenido">
+            <div class="header"><h1>Composición de equipos</h1></div>
+            <div>
+              <p>
+                En esta ocasión, veremos la importancia de una buena Composición
+                de equipo, no basta con solamente elegir los Pokémon que más te
+                agraden si decides entrar al formato competitivo
+              </p>
+              <img
+                src="Imagenes/BannerPokemonsStarter.jpg"
+                alt="Imagen no encontrada"
+              />
+            </div>
+          </article>
+
+          <article class="contenido">
+            <div class="header">
+              <h1>Estructuras de un equipo competitivo</h1>
+            </div>
+
+            <div class="contenido">
+              <p>
+                Es importante entender de antemano que cada slot en el equipo
+                tiene una razón de ser, una importancia y objetivo, por lo
+                general en el formato competitivo existen diferentes estrategias
+                separadas por nombres clave, tales como:
+              </p>
+
+              <dl>
+                <dt>Glass cannon</dt>
+                <dd>
+                  Se refiere a Pokémon con alta velocidad y ataque pero bajas
+                  defensas, rompemurallas
+                </dd>
+
+                <dt>Polivalentes</dt>
+                <dd>
+                  Se refiere a Pokemons sin boosts que barren por su sinergia
+                </dd>
+
+                <dt>Support</dt>
+                <dd>
+                  Pokémon capaces de bajar defensas, aplicarlas, dar problemas
+                  de estado y potenciar estrategias
+                </dd>
+
+                <dt>Tanques</dt>
+                <dd>
+                  Pokémon con capacidades de aguante superiores, planteados
+                  mayormente para estrategias de desgaste
+                </dd>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <aside id="contenidosecundario">
+        <!-- secondary content start -->
+
+        <h3>Autor</h3>
+        <div class="contenido">
+          <p>
+            <strong>Brandon Andrés Corella Ulate</strong> Estudiantado
+            <a href="#">Más información...</a>
+          </p>
+        </div>
+
+        <h3>Información de Referencia</h3>
+        <div class="contenido">
+          <ul class="linklist">
+            <li>
+              <a href="https://www.w3schools.com/html/" target="_blank"
+                >Manual de HTML W3schools</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/es/docs/Web/HTML"
+                target="_blank"
+                >Guía de HTML Mozilla</a
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer id="footer">
+      <credit>&copy; Derechos Reservados ISW-DAW UTN III-2025</credit>
+      <div id="fecha">Sep 27, 2025</div>
+      <script>
+        document.getElementById("date").innerHTML = new Date().toDateString();
+      </script>
+    </footer>
+  </body>
+</html>
