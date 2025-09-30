@@ -52,6 +52,7 @@ nav {
 }
 
 nav a {
+  display: inline-block;
   text-align: center;
   color: aqua;
   font-size: 20px;
@@ -124,7 +125,50 @@ aside ul {
 }
 
 footer {
+  clear: both;
   padding: 20px;
   text-align: center;
   color: black;
+}
+
+p.oculto {
+  visibility: hidden;
+}
+
+.superpuesto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.flex-demo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  background: #333;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.flex-demo .caja {
+  background: crimson;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 150px;
+}
+
+.flex-demo .especial {
+  order: -1;
+  flex-grow: 2;
+  align-self: flex-end;
 }
