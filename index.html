@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <base href="https://bcores.github.io/Tarea2/" />
+    <!-- base href="https://bcores.github.io/Tarea2/" /-->
     <title>Tarea #2 de Diseño de Aplicaciones Web</title>
     <meta
       name="description"
@@ -11,17 +11,26 @@
   </head>
 
   <body>
-    <div id="Cuerpo">
-      <header>
-        <div id="Logo">
-          <img src="Imagenes/Pokeball.png" alt="Imagen no encontrada" />
-          <h1>Tarea #2 de Diseño Web</h1>
-        </div>
-        <img src="Imagenes/Banner.jpg" alt="Imagen no encontrada" />
+    <div id="outer">
+      <header id="header">
+        <h1 class="Title">Tarea #2 de Diseño Web</h1>
+        <img
+          class="logo"
+          src="Imagenes/Pokeball.png"
+          alt="Imagen no encontrada"
+        />
+        <img
+          class="banner"
+          src="Imagenes/Banner.jpg"
+          alt="Imagen no encontrada"
+        />
       </header>
-
+      <div>
+        <pre><br><br><br></pre>
+      </div>
       <nav id="menu">
         <div id="contenedor">
+          <br />
           <a class="principal" href="index.html">Menú</a>
           <a class="principal" href="#">Información adicional</a>
           <a class="principal" href="#">Composición de equipos</a>
@@ -34,14 +43,17 @@
       <main id="contenidoprincipal">
         <div class="contenidoprincipal">
           <article class="contenido">
-            <div class="header"><h1>Composición de equipos</h1></div>
+            <div class="Titulo">
+              <h1 class="Titulo">Composición de equipos</h1>
+            </div>
             <div>
-              <p>
+              <p class="parla">
                 En esta ocasión, veremos la importancia de una buena Composición
                 de equipo, no basta con solamente elegir los Pokémon que más te
                 agraden si decides entrar al formato competitivo
               </p>
               <img
+                id="starters"
                 src="Imagenes/BannerPokemonsStarter.jpg"
                 alt="Imagen no encontrada"
               />
@@ -49,8 +61,8 @@
           </article>
 
           <article class="contenido">
-            <div class="header">
-              <h1>Estructuras de un equipo competitivo</h1>
+            <div class="Titulo">
+              <h1 class="Titulo">Estructuras de un equipo competitivo</h1>
             </div>
 
             <div class="contenido">
@@ -125,7 +137,7 @@
       <credit>&copy; Derechos Reservados ISW-DAW UTN III-2025</credit>
       <div id="fecha">Sep 27, 2025</div>
       <script>
-        document.getElementById("date").innerHTML = new Date().toDateString();
+        document.getElementById("fecha").innerHTML = new Date().toDateString();
       </script>
     </footer>
   </body>

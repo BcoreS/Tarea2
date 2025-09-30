@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: white url("/Imagenes/Difuminado.png") repeat-x;
+  font-size: 12px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  line-height: 18px;
+  color: white;
+}
+
+#outer {
+  position: relative;
+  width: 60%;
+  margin-top: 10px;
+  background-color: rgb(59, 8, 8);
+  border: initial;
+  overflow: overlay;
+  margin: 0px auto;
+}
+
+header img {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+header img.logo {
+  float: left;
+  background-color: rgb(254, 179, 66);
+  height: 190px;
+  width: 200px;
+}
+
+header img.banner {
+  float: left;
+  height: 200px;
+  width: 78.07%;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-align: center;
+  color: aqua;
+  font-size: 20px;
+}
+
+#contenidoprincipal {
+  float: left;
+  width: 74%;
+}
+
+#contenidosecundario {
+  width: 25%;
+  float: right;
+}
+
+div.contenidoprincipal {
+  background-color: rgb(156, 33, 33);
+}
+
+h1.Titulo {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+p.parla {
+  padding-top: 05px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+div.contenido {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+img#starters {
+  width: 100%;
+}
+
+div.contenido p {
+  margin-bottom: 10px;
+}
+
+div.contenido dl {
+  padding-bottom: 20px;
+}
+
+div.contenido dl dd {
+  padding-bottom: 10px;
+}
+
+div.contenido dl dt {
+  padding-bottom: 3px;
+}
+
+aside {
+  border: 1px solid white;
+  padding: 1px;
+}
+
+aside * {
+  padding: 2px;
+}
+
+aside ul {
+  padding: 10px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
